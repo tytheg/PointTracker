@@ -9,7 +9,8 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Grid Background="#FF005244">
+        <Image x:Name="img" HorizontalAlignment="Center" VerticalAlignment="Top" Width="300" RenderTransformOrigin="0.002,1.416" Source="Assets/pikes.png"/>
+        <Button x:Name="btnEnter" Content="Enter" HorizontalAlignment="Center"  VerticalAlignment="Center" Height="81" Width="140" Margin="146,452,146,235" FontFamily="Bernard MT Condensed" FontSize="20" FontWeight="Bold" FontStyle="Italic" Foreground="#FF710000" Background="#FFBDAA00" Click="btnEnter_Click"/>
     </Grid>
 </forms:WindowsPage>

@@ -23,5 +23,10 @@ namespace PointTracker.UWP
 
             LoadApplication(new PointTracker.App());
         }
+
+        private void btnEnter_Click(object sender, RoutedEventArgs e)
+        {
+            btnEnter.Content = "Clicked";
+        }
     }
 }

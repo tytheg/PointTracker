@@ -12,8 +12,6 @@ namespace PointTracker
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new PointTracker.MainPage();
 		}
 
 		protected override void OnStart ()
